@@ -7,7 +7,7 @@ services:
     environment:
       - CELLXGENE_LOCATION=cellxgene
       - CELLXGENE_DATA=/h5ad
-      - CELLXGENE_PORT=10001
+      - GATEWAY_PORT=10001
       - GATEWAY_ENABLE_ANNOTATIONS=1
     ports:
       - 10001:10001
